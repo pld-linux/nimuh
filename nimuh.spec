@@ -13,6 +13,7 @@ BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	expat-devel
 Requires:	%{name}-data = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
