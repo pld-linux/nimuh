@@ -1,12 +1,12 @@
 Summary:	Nimuh is a game ambiented in Andalusia
 Summary(pl.UTF-8):	Nimuh jest grą o Andaluzji
 Name:		nimuh
-Version:	1.0
-Release:	0.1
+Version:	1.02
+Release:	0.2
 License:	Creative Commons
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/nimuh/%{name}-%{version}.tar.gz
-# Source0-md5:	77122ccc4bdd69a573b471894db9138a
+# Source0-md5:	2876f237ff7f4aa50887f844bd807f23
 URL:		http://www.nimuh.com/index.php?lang=en
 BuildRequires:	OpenGL-GLU-devel
 BuildRequires:	SDL_image-devel
@@ -48,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS README
+%doc COPYING AUTHORS README
 %attr(755,root,root) %{_bindir}/%{name}
