@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Nimuh
+GenericName=Nimuh, En Busca Del Tesoro Andaluz
+Comment=Nimuh is a game located in Andalucia
+Comment[pl]=Nimuh jest grą o Andaluzji
+Icon=nimuh.png
+Exec=nimuh
+Terminal=false
+Type=Application
+Categories=Game;StrategyGame;
