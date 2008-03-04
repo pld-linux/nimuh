@@ -1,9 +1,9 @@
-Summary:	Nimuh is a game ambiented in Andalusia
-Summary(pl.UTF-8):	Nimuh jest grą o Andaluzji
+Summary:	Nimuh - a game ambiented in Andalusia
+Summary(pl.UTF-8):	Nimuh - gra umiejscowiona w Andaluzji
 Name:		nimuh
 Version:	1.02
 Release:	0.5
-License:	Creative Commons
+License:	Creative Commons Attribution-Noncommercial-Share Alike v2.5 Spain
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/nimuh/%{name}-%{version}.tar.gz
 # Source0-md5:	2876f237ff7f4aa50887f844bd807f23
@@ -21,13 +21,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Nimuh is a game ambiented in Andalusia. A game based in "Theseus and
-the Minotaur Mazes" that will go through different andalusian
+the Minotaur Mazes" that will go through different Andalusian
 locations.
 
 %description -l pl.UTF-8
-Nimuh jest grą na temat Andaluzji. Gra jest oparta na grze "Theseus
-and the Minotaur Mazes", w której gracz przemierza różne
-andaluzyjskie lokacje.
+Nimuh jest grą umiejscowioną w Andaluzji. Jest oparta na grze "Theseus
+and the Minotaur Mazes" (Tezeusz i labirynty Minotaura), ale tu gracz
+przemierza różne miejsca w Andaluzji.
 
 %prep
 %setup -q
